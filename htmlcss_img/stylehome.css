@@ -1,0 +1,140 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	list-style: none;
+	font-family: 'Poppins', sans-serif;
+
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+    font-size: 22px;
+    
+}
+.navbar-light .navbar-brand{
+    color: white;
+    font-size: 30px;
+}
+
+
+ul li a:hover{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+ul li a:hover{
+    text-transform: capitalize;
+    color: blue;
+    border-bottom: solid 1px;
+}
+
+.form-group {
+    color: white;
+    text-align: center;
+
+    
+
+}
+
+.btn-entrar {
+    max-width: 20%;
+    margin-top: 10px; 
+    margin-left:70%; 
+    text-align: center;
+}
+
+.btn-promo{
+    float: right;
+    float: right;
+    position: relative;
+    top: -38px;
+    right: 10%;
+}
+    
+    
+   
+
+ 
+
+.container{
+    display: flex;
+    
+    box-sizing: border-box;
+    
+    
+   
+}
+
+  
+
+.formulario{
+    margin-top: 20px;
+    padding: 50px; 
+    justify-content: space-around;
+    
+    
+    
+    
+
+}
+
+.btn-info{
+    color: white;
+    
+    
+}
+
+.row{
+    
+    width: 55%;
+    margin-left:52%; 
+   
+}
+
+
+
+.card-group{
+    
+    text-align: center;
+    
+    
+}
+
+footer {
+   
+    background-color: aliceblue;
+    color:darkgray;
+    text-align: center;
+    font-size: 10px;
+    
+  
+   
+}
+
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position:  100%;
+    background-repeat: no-repeat;
+}
+
+
+
+
+@media only screen and (max-width:600px){
+    header{
+        background-position: 20% 33%;
+    }
+    .btn-entrar {
+        max-width: 100%;
+        margin-top: 10px; 
+        margin-left:70%; 
+        text-align: center;
+        
+       
+       
+    }
+    
+}
