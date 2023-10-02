@@ -9,7 +9,7 @@
 
 .navbar-light .navbar-nav .nav-link{
     color: white;
-    font-size: 22px;
+    font-size: 15px;
     
 }
 .navbar-light .navbar-brand{
@@ -30,77 +30,44 @@ ul li a:hover{
     border-bottom: solid 1px;
 }
 
-.form-group {
-    color: white;
-    text-align: center;
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position:  100%;
+    background-repeat: no-repeat;
+}
 
     
 
-}
 
-.btn-entrar {
-    max-width: 20%;
-    margin-top: 10px; 
-    margin-left:70%; 
-    text-align: center;
-}
 
-.btn-promo{
+/*btn-promo{
     float: right;
     float: right;
     position: relative;
     top: -38px;
     right: 10%;
-}
+
     
     
    
 
  
 
-.container{
-    display: flex;
-    
-    box-sizing: border-box;
-    
-    
-   
-}
 
   
 
-.formulario{
-    margin-top: 20px;
-    padding: 50px; 
-    justify-content: space-around;
-    
-    
-    
-    
 
-}
 
-.btn-info{
+btn-info{
     color: white;
     
     
-}
-
-.row{
-    
-    width: 55%;
-    margin-left:52%; 
-   
-}
 
 
 
-.card-group{
-    
-    text-align: center;
-    
-    
-}
+
+
 
 footer {
    
@@ -113,12 +80,6 @@ footer {
    
 }
 
-body{
-    background-image: url(background.jpg);
-    background-size: cover;
-    background-position:  100%;
-    background-repeat: no-repeat;
-}
 
 
 
@@ -127,7 +88,7 @@ body{
     header{
         background-position: 20% 33%;
     }
-    .btn-entrar {
+    btn-entrar {
         max-width: 100%;
         margin-top: 10px; 
         margin-left:70%; 
@@ -138,3 +99,4 @@ body{
     }
     
 }
+
