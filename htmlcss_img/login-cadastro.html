@@ -2,63 +2,75 @@
 <html lang="pt-br">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="favicon.ico.png" type="image/x-icon">
-  <title>Login e Cadastro</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link rel="stylesheet" href="style-pagcontato-paglogin.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico.png" type="image/x-icon">
+    <title>Bertolazzo Ilhas</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+    <link rel="stylesheet" href="stylehome.css">
 </head>
 
-<body>
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top bg-transparent">
-      <div class="container nav">
-        <a class="navbar-brand fw-bold" href="#">Bertolazzo<span style="color: aquamarine;"> Ilhas</span></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-          <div class="C-Icone">
-            <span class="Icone"><i class="bi bi-person-circle"></i></span>
-          </div>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link " href="index.html">HOME</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="destinos.html">DESTINO</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="promocoes.html">PROMOÇÕES</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contato.html">CONTATO</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="login-cadastro.html">ENTRE OU CADASTRE-SE</a>
-            </li>
+<body class="background-page">
+  
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light p-2 shadow bg-transparent">
+            <div class="container nav">
+                <a class="navbar-brand fw-bold" href="index.html">Bertolazzo<span style="color: aquamarine;">
+                        Ilhas</span></a>
 
 
-          </ul>
-
-        </div>
-      </div>
-    </nav>
-
-  </header>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
 
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link " href="index.html">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="destinos.html">Destino</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="promocoes.html">Promoções</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contato.html">Contato</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="login-cadastro.html">Entre ou Cadastre-se</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <p class="background-home p-4"></p>
+    
 
 
 
-  <main>
+
+
+
+  <!--<main>
 
     <section class="background-home p-5">
 
-      <h2 class=" row justify-content-center text-light p-4">Login</h2>
+      <div class="container text-center">
+        <h2 class=" row justify-content-center text-light p-4">Login</h2>
       <div class="row g-2">
         <div class="col-md">
           <div class="form-floating">
@@ -141,7 +153,68 @@
           <button class="btn btn-primary" type="submit">Enviar</button>
         </div>
       </form>
-
+      
+      <!--<form class="needs-validation" novalidate>
+        <div class="form-group">
+          <label for="validationCustom01" class="text-light">Nome</label>
+          <input type="text" class="form-control" id="validationCustom01" value="Karina..." required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="validationCustom02" class="text-light">Sobrenome</label>
+          <input type="text" class="form-control" id="validationCustom02" value="Bertolazzo..." required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="validationCustomUsername" class="text-light">Nome de usuário</label>
+          <div class="input-group has-validation">
+            <span class="input-group-text" id="inputGroupPrepend">@</span>
+            <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend"
+              required>
+            <div class="invalid-feedback">
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="validationCustom03" class="text-light">Cidade</label>
+          <input type="text" class="form-control" id="validationCustom03" required>
+          <div class="invalid-feedback">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="validationCustom04" class="text-light">Estado</label>
+          <select class="form-select" id="validationCustom04" required>
+            <option selected disabled value="">Escolha...</option>
+            <option>...</option>
+          </select>
+          <div class="invalid-feedback">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="validationCustom05" class="text-light">CEP</label>
+          <input type="text" class="form-control" id="validationCustom05" required>
+          <div class="invalid-feedback">
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+            <label class="form-check-label text-light" for="invalidCheck">
+              Concorde com os termos e condições
+            </label>
+            <div class="invalid-feedback">
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <button class="btn btn-primary" type="submit">Enviar</button>
+        </div>
+      </form>
+      
 
       <footer>
         <p>&copy; Bertolazzo Viagens . Karina Santana</p>
