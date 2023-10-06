@@ -31,14 +31,14 @@ ul li a:hover{
 }
 
 body{
-    background-image: url(/assets/img/background.jpg);
+    background-image: url(../img/background.jpg);
     background-size: cover;
     background-position:  100%;
     background-repeat: no-repeat;
 }
 
 .background-page{
-    background-image: url(/assets/img/background_contato_login_cadastro.jpg);
+    background-image: url(../img/background_contato_login_cadastro.jpg);
 }
 
 
